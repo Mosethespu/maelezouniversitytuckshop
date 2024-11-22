@@ -1,0 +1,14 @@
+User                Application UI       Order System        Notification System
+|                        |                       |                       |
+|--------- Place Order -------->|                       |                       |
+|                        |--------- Send Order Details -------->|                       |
+|                        |                       |--------- Process Order -------->|
+|                        |                       |<------- Confirm Order ----------|
+|                        |<------ Confirm Order to UI --------|                       |
+|                        |                       |                       |
+|                        |                       |----------- Update Order Status ---------->|
+|                        |                       |                       |<--------- Order Ready -----------|
+|                        |<--------- Notify Order Ready -------------|                       |
+|<------- Receive Notification --------|                       |
+|                        |                       |                       |
+
